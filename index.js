@@ -17,7 +17,7 @@ app.get("/", (req, res) => {
 
 // Declaring post method on bhfl route
 
-app.post("/bhfl", (req, res) => {
+app.post("/bfhl", (req, res) => {
   //    Declaring try catch block to handle error cases
   try {
     // Handling the cases if no data is being provided in json format
@@ -84,7 +84,7 @@ app.post("/bhfl", (req, res) => {
 
 // Declaring get method on bhfl route
 
-app.get("/bhfl", (req, res) => {
+app.get("/bfhl", (req, res) => {
   // Returning status code of 200 along with the operation code
 
   return res.status(200).json({
